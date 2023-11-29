@@ -1,0 +1,21 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    background-color: white; /* White background for the entire navbar */
+    padding: 10px; /* Add padding as needed */
+  }
+  
+  .nav-item {
+    padding: 10px 20px; /* Adjust padding for each nav item */
+    color: white; /* Default text color for nav items */
+    background-color: black; /* Default background color for nav items */
+    margin-right: 10px; /* Adjust margin between nav items */
+    cursor: pointer;
+  }
+  
+  .nav-item.active {
+    background-color: white; /* Background color for the active nav item */
+    color: black; /* Text color for the active nav item */
+  }
+  
