@@ -10,6 +10,7 @@ import {
 import Dashboard from "./pages/Dashboard";
 import "./index.css"
 import Test from "./pages/Test";
+import CreatePO from "./pages/CreatePO";
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
     path: "/test",
     element: <Test/>
   },
+    {
+        path: "/createPO",
+        element: <CreatePO />
+    },
   {
     path: "about",
     element: <div>About</div>,
