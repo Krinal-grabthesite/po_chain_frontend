@@ -99,6 +99,7 @@ function CreatePO() {
                     {/* Items */}
                     <div className="field  col-12 md:col-12">
                         <h3>Items:</h3>
+                        <Button label="Add Item"  onClick={handleAddItem} />
                     </div>
 
 
@@ -124,7 +125,7 @@ function CreatePO() {
                             </div>
                         ))}
 
-                    <Button label="Add Item" onClick={handleAddItem} />
+                    
 
                     {/* Delivery Address */}
                     <div className="field">
